@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5be0947c00.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>sophomore student</p>
+                <h1>Hi, This is <span>puneeth</span><br>from Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------------about -->
+    <div id="about">
+        <div class="container"> 
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there, this is Puneeth Abhishek , an ambitious computer science engineering student with a passion for technology and innovation .With a keen interest in programming, Eager to apply my skills and knowledge to real-world projects and challenges.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">    
+                        <ul>
+                            <li><span>Python programming</span><br>basics to intermediate</li>
+                            <li><span>Web developer</span><br>Web app development</li>
+                            <li><span>Java developer</span><br>java sorftware programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                           <li><span>2021-current</span><br>Class Representative of csm-2026</li>
+                            <li><span>2019-2021</span><br>-------------------------</li>
+                            <li><span>2017-2019</span><br>--------------------------</li>
+                            <li><span>2016-2017</span><br>--------------------------</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>DAV public school || 9.8CGPA</li>
+                            <li><span>2022</span><br>Excellencia Jr college || 94.5%</li>
+                            <li><span>2022-current</span><br>HITAM || 1-1 sem: 9.2 CGPA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------services----------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating web designs that engage audiences and achieve online success by bringing your digital vision to life..
+                    </p> 
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h2>photo/video designing</h2>
+                    <p>i can develop and produce you outstanding websites , which leaves 
+                        you stunned and jaw dropped
+                        dasfafasss------------------------------.</p> 
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>c-o-m-i-n-g-------s-o-o-n
+                        -----------------------------------------------------------.</p> 
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>Digilocker Hitam</h3>
+                        <p>an app that helps you download soft copies of certificates , making the process hassle free.</p>
+                        <a href="https://github.com/IPuneethAbhishek/work"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png" alt="">
+                    <div class="layer">
+                        <h3>Student database management system</h3>
+                        <p>This is a C program for managing student records using file handling.</p>
+                        <a href="https://github.com/IPuneethAbhishek/student-database.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Digilocker Hitam</h3>
+                        <p>an app that helps you download soft copies of certificates , making the process hassle free.</p>
+                        <a href="https://github.com/IPuneethAbhishek/work"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------CONTACT-------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>puneethabhishek0110@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7989710953</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/IPuneethAbhishek"><i class="fa-brands fa-github"></i></a></a>
+                        <a href="https://discord.gg/cwYdeA2z3e"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://www.instagram.com/i_puneeth_abhishek/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/iska-puneeth-abhishek-29756a250"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder=" Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© All rights reserved <i class="fa-solid fa-rocket"></i> </p>
+        </div>
+    </div>
+    <script>     
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200";
+        }
+    </script>
+</body>
+</html> 
